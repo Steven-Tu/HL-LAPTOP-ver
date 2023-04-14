@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>6D9224E249EAFD430B9F2F882C128A2D</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-90A12DB8406463C0A12AE5AD22DABEF1_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>GPUCrash</CrashType>
+		<ErrorMessage>LowLevelFatalError [File:Unknown] [Line: 715] hr failed at W:/Engine/Source/Runtime/D3D12RHI/Private/D3D12Resources.cpp:503 with error DXGI_ERROR_DEVICE_REMOVED with Reason: DXGI_ERROR_DEVICE_HUNG</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>67220</ProcessId>
+		<SecondsSinceStart>3634</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE4-Phoenix</GameName>
+		<ExecutableName>HogwartsLegacy</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>1.0.1117238-Win64-Shipping</Symbols>
+		<PlatformName>WindowsNoEditor</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.27.2-1117238+++stream+Main_TeamCity_Code</EngineVersion>
+		<CommandLine>Phoenix</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>1.0.1117238</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<BaseDir>G:/Hogwarts Legacy/Phoenix/Binaries/Win64/</BaseDir>
+		<RootDir>G:/Hogwarts Legacy/</RootDir>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName>GameState</GameStateName>
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3060 Ti</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>33941618688</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>5967544320</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>8860401664</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>9427107840</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>11455188992</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>20810637312</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>21148356608</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>4</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>HogwartsLegacy 0x0000000140000000 + 3b88ada HogwartsLegacy 0x0000000140000000 + 3b59e39 HogwartsLegacy 0x0000000140000000 + 3b59cf6 HogwartsLegacy 0x0000000140000000 + 3b5af40 HogwartsLegacy 0x0000000140000000 + 3b4c70e HogwartsLegacy 0x0000000140000000 + 3b4d155 HogwartsLegacy 0x0000000140000000 + 3bc3c5a HogwartsLegacy 0x0000000140000000 + 3ef36e3 HogwartsLegacy 0x0000000140000000 + 3ef2f7f HogwartsLegacy 0x0000000140000000 + 3ef2143 HogwartsLegacy 0x0000000140000000 + 3c573cc HogwartsLegacy 0x0000000140000000 + 3ffb5cb HogwartsLegacy 0x0000000140000000 + 3fe39de HogwartsLegacy 0x0000000140000000 + 3fec5a9 HogwartsLegacy 0x0000000140000000 + 356182b HogwartsLegacy 0x0000000140000000 + 4bdf3c2 HogwartsLegacy 0x0000000140000000 + 4be01a3 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</PCallStack>
+		<PCallStackHash>FAE99BA77AD9DA324630299DDA944EA1E21F6D9F</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 4bd779d HogwartsLegacy 0x0000000140000000 + e677c9 HogwartsLegacy 0x0000000140000000 + e6de8c HogwartsLegacy 0x0000000140000000 + e6df0a HogwartsLegacy 0x0000000140000000 + e6f1a4 HogwartsLegacy 0x0000000140000000 + e77b54 HogwartsLegacy 0x0000000140000000 + 6495d7e KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>64688</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>40584</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>65052</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>67128</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>62944</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>33464</ThreadID>
+				<ThreadName>TaskGraphThreadNP 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15524</ThreadID>
+				<ThreadName>TaskGraphThreadNP 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>63572</ThreadID>
+				<ThreadName>TaskGraphThreadNP 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>36336</ThreadID>
+				<ThreadName>TaskGraphThreadNP 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>41036</ThreadID>
+				<ThreadName>TaskGraphThreadNP 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29072</ThreadID>
+				<ThreadName>TaskGraphThreadNP 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4164</ThreadID>
+				<ThreadName>TaskGraphThreadNP 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>59320</ThreadID>
+				<ThreadName>TaskGraphThreadNP 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28936</ThreadID>
+				<ThreadName>TaskGraphThreadNP 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>40044</ThreadID>
+				<ThreadName>TaskGraphThreadNP 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>46376</ThreadID>
+				<ThreadName>TaskGraphThreadHP 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>57488</ThreadID>
+				<ThreadName>TaskGraphThreadHP 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>67488</ThreadID>
+				<ThreadName>TaskGraphThreadHP 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>64264</ThreadID>
+				<ThreadName>TaskGraphThreadHP 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>57816</ThreadID>
+				<ThreadName>TaskGraphThreadHP 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29980</ThreadID>
+				<ThreadName>TaskGraphThreadHP 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>37448</ThreadID>
+				<ThreadName>TaskGraphThreadHP 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10312</ThreadID>
+				<ThreadName>TaskGraphThreadHP 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>67408</ThreadID>
+				<ThreadName>TaskGraphThreadHP 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>50852</ThreadID>
+				<ThreadName>TaskGraphThreadHP 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>62976</ThreadID>
+				<ThreadName>TaskGraphThreadHP 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>60336</ThreadID>
+				<ThreadName>TaskGraphThreadHP 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22516</ThreadID>
+				<ThreadName>TaskGraphThreadHP 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>57364</ThreadID>
+				<ThreadName>TaskGraphThreadHP 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>40832</ThreadID>
+				<ThreadName>TaskGraphThreadBP 28</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>62128</ThreadID>
+				<ThreadName>TaskGraphThreadBP 29</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>57168</ThreadID>
+				<ThreadName>TaskGraphThreadBP 30</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>60288</ThreadID>
+				<ThreadName>TaskGraphThreadBP 31</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>66832</ThreadID>
+				<ThreadName>TaskGraphThreadBP 32</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>59760</ThreadID>
+				<ThreadName>TaskGraphThreadBP 33</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>67320</ThreadID>
+				<ThreadName>TaskGraphThreadBP 34</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>60784</ThreadID>
+				<ThreadName>TaskGraphThreadBP 35</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>33992</ThreadID>
+				<ThreadName>TaskGraphThreadBP 36</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>41684</ThreadID>
+				<ThreadName>TaskGraphThreadBP 37</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>65860</ThreadID>
+				<ThreadName>TaskGraphThreadBP 38</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32612</ThreadID>
+				<ThreadName>TaskGraphThreadBP 39</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>61728</ThreadID>
+				<ThreadName>TaskGraphThreadBP 40</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 3561951 HogwartsLegacy 0x0000000140000000 + 356374c HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>65148</ThreadID>
+				<ThreadName>TaskGraphThreadBP 41</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29996</ThreadID>
+				<ThreadName>PoolThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16956</ThreadID>
+				<ThreadName>PoolThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>58264</ThreadID>
+				<ThreadName>PoolThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>63576</ThreadID>
+				<ThreadName>PoolThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25900</ThreadID>
+				<ThreadName>PoolThread 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17464</ThreadID>
+				<ThreadName>PoolThread 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16060</ThreadID>
+				<ThreadName>PoolThread 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17808</ThreadID>
+				<ThreadName>PoolThread 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>59692</ThreadID>
+				<ThreadName>PoolThread 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>60864</ThreadID>
+				<ThreadName>PoolThread 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>64716</ThreadID>
+				<ThreadName>PoolThread 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>67580</ThreadID>
+				<ThreadName>PoolThread 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24536</ThreadID>
+				<ThreadName>PoolThread 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21616</ThreadID>
+				<ThreadName>PoolThread 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>40016</ThreadID>
+				<ThreadName>PoolThread 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>62720</ThreadID>
+				<ThreadName>PoolThread 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a4204 ntdll 0x00007ffa643a0000 + 5b873 KERNELBASE 0x00007ffa61cb0000 + 4acc1 HogwartsLegacy 0x0000000140000000 + 4a26156 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>40628</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a4204 ntdll 0x00007ffa643a0000 + 5b873 KERNELBASE 0x00007ffa61cb0000 + 4acc1 HogwartsLegacy 0x0000000140000000 + 5dd8ee6 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18080</ThreadID>
+				<ThreadName>LibwebsocketsThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 16577e6 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16980</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a4204 ntdll 0x00007ffa643a0000 + 5b873 KERNELBASE 0x00007ffa61cb0000 + 4acc1 HogwartsLegacy 0x0000000140000000 + 3bcc4dd HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31504</ThreadID>
+				<ThreadName>PipelineStateDiskCacheFlush</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 50a92bc HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>39044</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>55712</ThreadID>
+				<ThreadName>PoolThread 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32756</ThreadID>
+				<ThreadName>PoolThread 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12972</ThreadID>
+				<ThreadName>PoolThread 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29532</ThreadID>
+				<ThreadName>PoolThread 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 360c71d HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>66044</ThreadID>
+				<ThreadName>IoService</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 360c76d HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>60712</ThreadID>
+				<ThreadName>IoDispatcher</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a76d4 ntdll 0x00007ffa643a0000 + 1d89d ntdll 0x00007ffa643a0000 + 1d5c1 ntdll 0x00007ffa643a0000 + 3a76c ntdll 0x00007ffa643a0000 + 3a5d2 HogwartsLegacy 0x0000000140000000 + 3bbc20f HogwartsLegacy 0x0000000140000000 + 3bbe865 HogwartsLegacy 0x0000000140000000 + 3b8e029 HogwartsLegacy 0x0000000140000000 + 3baff69 HogwartsLegacy 0x0000000140000000 + 3b6c446 HogwartsLegacy 0x0000000140000000 + 4b9e1fb HogwartsLegacy 0x0000000140000000 + 4b9e7fb HogwartsLegacy 0x0000000140000000 + 356182b HogwartsLegacy 0x0000000140000000 + 4be0160 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29580</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 5e31ee4 HogwartsLegacy 0x0000000140000000 + 36a5c3c HogwartsLegacy 0x0000000140000000 + 64a36ee vcruntime140 0x00007ffa1f2f0000 + f0f0 ntdll 0x00007ffa643a0000 + a8b1f ntdll 0x00007ffa643a0000 + 35b9a ntdll 0x00007ffa643a0000 + 32e63 KERNELBASE 0x00007ffa61cb0000 + 440ac HogwartsLegacy 0x0000000140000000 + 36a7451 HogwartsLegacy 0x0000000140000000 + 365b1dd HogwartsLegacy 0x0000000140000000 + 3bbea2d HogwartsLegacy 0x0000000140000000 + 3b88ada HogwartsLegacy 0x0000000140000000 + 3b59e39 HogwartsLegacy 0x0000000140000000 + 3b59cf6 HogwartsLegacy 0x0000000140000000 + 3b5af40 HogwartsLegacy 0x0000000140000000 + 3b4c70e HogwartsLegacy 0x0000000140000000 + 3b4d155 HogwartsLegacy 0x0000000140000000 + 3bc3c5a HogwartsLegacy 0x0000000140000000 + 3ef36e3 HogwartsLegacy 0x0000000140000000 + 3ef2f7f HogwartsLegacy 0x0000000140000000 + 3ef2143 HogwartsLegacy 0x0000000140000000 + 3c573cc HogwartsLegacy 0x0000000140000000 + 3ffb5cb HogwartsLegacy 0x0000000140000000 + 3fe39de HogwartsLegacy 0x0000000140000000 + 3fec5a9 HogwartsLegacy 0x0000000140000000 + 356182b HogwartsLegacy 0x0000000140000000 + 4bdf3c2 HogwartsLegacy 0x0000000140000000 + 4be01a3 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>63180</ThreadID>
+				<ThreadName>RenderThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a4204 ntdll 0x00007ffa643a0000 + 5b873 KERNELBASE 0x00007ffa61cb0000 + 4acc1 HogwartsLegacy 0x0000000140000000 + 36b85ba HogwartsLegacy 0x0000000140000000 + 4be02c7 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>50976</ThreadID>
+				<ThreadName>RTHeartBeat 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>64732</ThreadID>
+				<ThreadName>PoolThread 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>55168</ThreadID>
+				<ThreadName>PoolThread 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>64620</ThreadID>
+				<ThreadName>PoolThread 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>33332</ThreadID>
+				<ThreadName>PoolThread 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>35400</ThreadID>
+				<ThreadName>PoolThread 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>53156</ThreadID>
+				<ThreadName>PoolThread 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>60528</ThreadID>
+				<ThreadName>PoolThread 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 35a6d5f HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4452</ThreadID>
+				<ThreadName>PoolThread 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>37404</ThreadID>
+				<ThreadName>GuidePathWiggle</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + fa956a HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>57904</ThreadID>
+				<ThreadName>AkMediaMemoryManager ticker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a4204 ntdll 0x00007ffa643a0000 + 5b873 KERNELBASE 0x00007ffa61cb0000 + 4acc1 HogwartsLegacy 0x0000000140000000 + 36b85ba HogwartsLegacy 0x0000000140000000 + 350c4dd HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13984</ThreadID>
+				<ThreadName>GrimReaper</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 373bb84 HogwartsLegacy 0x0000000140000000 + 373b99e HogwartsLegacy 0x0000000140000000 + 371d323 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>65308</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a4204 ntdll 0x00007ffa643a0000 + 5b873 KERNELBASE 0x00007ffa61cb0000 + 4acc1 HogwartsLegacy 0x0000000140000000 + 36b85ba HogwartsLegacy 0x0000000140000000 + 580a071 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>65928</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a4204 ntdll 0x00007ffa643a0000 + 5b873 KERNELBASE 0x00007ffa61cb0000 + 4acc1 msvcp140 0x00007ffa1ec40000 + 12ecc HogwartsLegacy 0x0000000140000000 + 5d61fe5 HogwartsLegacy 0x0000000140000000 + 5ddc5e3 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>39540</ThreadID>
+				<ThreadName>UE4ThreadManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a4204 ntdll 0x00007ffa643a0000 + 5b873 KERNELBASE 0x00007ffa61cb0000 + 4acc1 HogwartsLegacy 0x0000000140000000 + 36b85ba HogwartsLegacy 0x0000000140000000 + 2702df8 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7272</ThreadID>
+				<ThreadName>PathNavigation</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa643a0000 + a3c04 KERNELBASE 0x00007ffa61cb0000 + 4236e HogwartsLegacy 0x0000000140000000 + 36b95db HogwartsLegacy 0x0000000140000000 + 383f862 HogwartsLegacy 0x0000000140000000 + 36b7857 HogwartsLegacy 0x0000000140000000 + 36b1a91 KERNEL32 0x00007ffa63b20000 + 155a0 ntdll 0x00007ffa643a0000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>58816</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638137404732460000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<EpicAccountId>b0677cceb0c246f89cf38655ee5871e6</EpicAccountId>
+		<UserName />
+		<LoginId>8a944b8749c2698ee0a63284419d5e29</LoginId>
+		<PlatformFullName>Win64 [Windows 10 (Release 2009)  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>G:\Hogwarts Legacy\Phoenix\Binaries\Win64\EMP.dll
+G:\Hogwarts Legacy\Phoenix\Binaries\Win64\HogwartsLegacy.exe
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Intel\XeSS\Binaries\ThirdParty\Win64\dxcompiler.dll
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Nvidia\DLSS\Binaries\ThirdParty\Win64\nvngx_dlss.dll
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Intel\XeSS\Binaries\ThirdParty\Win64\libxess.dll
+G:\Hogwarts Legacy\Phoenix\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Intel\XeSS\Binaries\ThirdParty\Win64\dxil.dll
+G:\Hogwarts Legacy\Engine\Binaries\ThirdParty\NVIDIA\GeForceNOW\Win64\GfnRuntimeSdk.dll
+G:\Hogwarts Legacy\Engine\Binaries\ThirdParty\Steamworks\Steamv154\Win64\steam_api64.dll
+G:\Hogwarts Legacy\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+G:\Hogwarts Legacy\Phoenix\Binaries\Win64\xinput1_3.dll
+G:\Hogwarts Legacy\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+G:\Hogwarts Legacy\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+G:\Hogwarts Legacy\Phoenix\Binaries\Win64\libScePad.dll
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Nvidia\Ansel\Binaries\ThirdParty\AnselSDK64.dll
+G:\Hogwarts Legacy\Phoenix\Plugins\ChromaSDKPlugin\Binaries\Win64\CChromaEditorLibrary64.dll
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Nvidia\Streamline\Binaries\ThirdParty\Win64\sl.common.dll
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Nvidia\Streamline\Binaries\ThirdParty\Win64\sl.interposer.dll
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Nvidia\Streamline\Binaries\ThirdParty\Win64\sl.reflex.dll
+G:\Hogwarts Legacy\Engine\Plugins\Runtime\Intel\XeSS\Binaries\ThirdParty\Win64\XeFX_Loader.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 3060 Ti</RHI.AdapterName>
+		<RHI.UserDriverVersion>526.98</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.15.2698</RHI.InternalDriverVersion>
+		<RHI.DriverDate>11-13-2022</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<DeviceProfile.Name>WindowsNoEditor</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>

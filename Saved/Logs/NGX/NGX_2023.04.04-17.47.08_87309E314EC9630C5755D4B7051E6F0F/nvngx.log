@@ -1,0 +1,2 @@
+[2023-04-04 17:47:08] [ngx::util::setLogFilename:218] Logging to requested file (C:/Users/Raymond Tu/AppData/Local/Phoenix/Saved/Logs/NGX/NGX_2023.04.04-17.47.08_87309E314EC9630C5755D4B7051E6F0F/nvngx.log) enabled successfully
+[2023-04-04 17:47:08] [NGXCheckHardwareSupportUsingINF:231] error: unsupported hardware detected
